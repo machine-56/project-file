@@ -9,7 +9,8 @@ adminRouter.get('/',(req, res)=>{
     // console.log('on admin router');
     const adminInfo = JSON.parse(user[0]);  //need
     adminabout = adminInfo;
-    res.render('adminView',{adminabout});
+    console.log(adminInfo);
+    res.render('adminView',{adminInfo});
         
 
 });

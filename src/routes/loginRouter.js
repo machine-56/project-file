@@ -35,12 +35,22 @@ loginRouter.get('/adminlogin',(req, res)=>{
         for(var i=0; i<adminInfo.length; i++){
             if(checkadmin.mail==adminInfo[i].email && checkadmin.pwd==adminInfo[i].password){
                 flagadmin = true;
+                console.log('true');
+                console.log(checkadmin.mail);
+                console.log(checkadmin.pwd);
+                console.log(adminInfo[i].email);
+                console.log(adminInfo[i].password);
                 const userdata = JSON.stringify(adminInfo[i]);
                 user.push(userdata);
                 break;
             }
             else{
                 flagadmin = false;
+                console.log('else');
+                console.log(checkadmin.mail);
+                console.log(checkadmin.pwd);
+                console.log(adminInfo[i].email);
+                console.log(adminInfo[i].password);
             };
             // console.log(flagadmin);
         }
