@@ -1,0 +1,19 @@
+[{
+  "name": "test Student",
+  "regno": "09191",
+  "batch": 2012,
+  "department": "CS",
+  "dob": "11/12/2000"
+},{
+  "name": "test Student2",
+  "regno": "09895",
+  "batch": 2014,
+  "department": "ELE",
+  "dob": "12/12/2000"
+},{},{
+  "name": "test sudent 3",
+  "regno": "312486",
+  "dob": "15/10/2000",
+  "batch": 2016,
+  "department": "ELE"
+}]

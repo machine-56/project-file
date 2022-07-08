@@ -1,0 +1,19 @@
+[{
+  "name": "test admin",
+  "email": "test@mail.com",
+  "password": "testpwd2",
+  "position": "admin on datas",
+  "department": "office"
+},{
+  "name": "test admin2",
+  "email": "test2@mail.com",
+  "password": "testpwd",
+  "position": "admin on datas",
+  "department": "CS"
+},{
+  "name": "test admin 3",
+  "email": "test3@mail.com",
+  "password": "testpwd3",
+  "department": "ELE",
+  "position": "hod"
+}]
