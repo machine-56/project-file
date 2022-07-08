@@ -1,0 +1,15 @@
+/* card */
+.container{
+    margin-top: 5%;
+    font-family: "Quicksand";
+}
+
+/* footer */
+.footer-cont{
+    text-align: center;
+    color: aliceblue;
+    background-color: #212529;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}

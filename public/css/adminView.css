@@ -1,0 +1,14 @@
+
+
+/* footer */
+.footer-cont{
+    font-family: 'Quicksand';
+    text-align: center;
+    color: aliceblue;
+
+    background-color: #1a1b1d;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: fit-content;
+}

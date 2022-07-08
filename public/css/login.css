@@ -1,0 +1,28 @@
+body{
+    background-image: url(../images/download.jpg);
+}
+
+/* style */
+.container{
+    margin-top: 15%;
+    font-family: 'Quicksand';
+}
+
+/* that black boundary */
+.form-b{
+    border: 2px solid black
+  }
+
+.content{
+    margin: 6%;
+}
+
+/* link at bottom left- */
+#pageLink{
+    font-family: 'Quicksand';
+    text-decoration: none;
+    color: black;
+    position: fixed;
+    bottom: 3px;
+    left: 13px;
+}

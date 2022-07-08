@@ -1,0 +1,29 @@
+/* body content */
+.viewcontent{
+    margin-top: 3%;
+    font-family: 'Quicksand';
+}
+
+/* Profile */
+.profile{
+    width: fit-content;
+    height: fit-content;
+    text-align: justify;
+    /* later find better method and move it if needed */
+    position: fixed;
+    margin-left: 80%;
+    margin-top: -10%;
+ }
+ 
+/* footer */
+.footer-cont{
+    font-family: 'Quicksand';
+    text-align: center;
+    color: aliceblue;
+
+    background-color: #1a1b1d;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: fit-content;
+}
